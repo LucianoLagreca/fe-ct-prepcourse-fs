@@ -1,4 +1,9 @@
 function esNumeroEntero(numero) {
+  if(Number.isInteger(numero)){
+    return(true);
+  }else{
+    return(false);
+  }
   // La función recibe un argumento llamado numero.
   // Verifica si este es un número entero o no.
   // Retorna true si lo es, de lo contrario, retorna false.

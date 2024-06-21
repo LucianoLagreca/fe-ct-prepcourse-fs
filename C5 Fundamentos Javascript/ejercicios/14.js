@@ -1,4 +1,8 @@
 function mayorQueCincuenta(num) {
+  if (num > 50) {
+    return(true);
+  }else{
+    return(false);
   // La función recibe un argumento llamado num.
   // Retorna true si el argumento "num" es mayor que cincuenta.
   // De lo contrario, retorna false.
@@ -6,6 +10,7 @@ function mayorQueCincuenta(num) {
   // 51 ---> true
   // 15 ---> false
   // Tu código:
+}
 }
 
 module.exports = mayorQueCincuenta;
