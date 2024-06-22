@@ -1,4 +1,5 @@
 function areaDelTriangulo(base, altura) {
+  return (base * altura)/2;
   // La función recibe dos argumentos llamados "base" y "altura" los cuales son numeros.
   // Retornar el área de un triangulo teniendo su base y altura.
   // Por ejemplo: 

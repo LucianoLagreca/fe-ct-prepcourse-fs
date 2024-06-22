@@ -1,6 +1,7 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
 function elevarAlCuadrado(num) {
+  return Math.pow(num,2);
   // La función recibe un argumento llamado num el cual es un numero.
   // Debes Retorna el valor de "num" elevado al cuadrado.
   // Por ejemplo: 
