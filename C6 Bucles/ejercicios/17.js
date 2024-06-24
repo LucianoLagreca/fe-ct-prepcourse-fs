@@ -1,4 +1,19 @@
 function colors(color) {
+ switch (color) {
+    case "blue":
+      return "This is blue";
+      break;
+    case "red":
+        return "This is red";
+        break;
+    case "green":
+      return "This is green";
+      break;
+    case "orange":
+        return "This is orange";
+        break;
+ }
+ return "Color not found";
   // La función recibe un color. Retorna el string correspondiente:
   // En caso que el color recibido sea "blue"   --> "This is blue".
   // En caso que el color recibido sea "red"    --> "This is red".

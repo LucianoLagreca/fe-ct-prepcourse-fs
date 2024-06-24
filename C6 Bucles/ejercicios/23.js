@@ -1,4 +1,14 @@
 function esNumeroPrimo(numero) {
+    if (numero <= 1) {
+      return false; 
+    }
+    for (let i = 2; i <= Math.sqrt(numero); i++) {
+      if (numero % i === 0) {
+        return false; 
+      }
+    }
+      return true; 
+  
   // La función recibe un argumento "numero".
   // Determina si este corresponde a un número primo.
   // De ser así, retorna true.

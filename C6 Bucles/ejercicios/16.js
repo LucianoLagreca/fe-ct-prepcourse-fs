@@ -1,4 +1,13 @@
 function saludo(idioma) {
+  if ( idioma === "aleman"){
+    return "Guten Tag!";
+  }else if ( idioma === "mandarin"){
+    return "Ni Hao!";
+  }else if ( idioma === "ingles"){
+    return "Hello!";
+  }else if ( idioma != "aleman" && idioma != "mandarin" && idioma != "ingles" || idioma === `undefined`){
+    return "Hola!";
+  }
   // Retornar un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!".
   // Si "idioma" es "mandarin", devuelve "Ni Hao!".
