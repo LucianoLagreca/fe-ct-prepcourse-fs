@@ -1,6 +1,6 @@
 function combine(str1, str2, str3) {
   let resultado = '';
-  let maxLen = Math.max(str1.length, str2.length, str3.length);
+  let maxLen = Math.max(str1.length, str2.length, str3.length); //maxLen: Longitud máxima entre las tres cadenas para determinar hasta dónde iterar.
 
   for (let i = 0; i < maxLen; i++) {
     if (i < str1.length) {
