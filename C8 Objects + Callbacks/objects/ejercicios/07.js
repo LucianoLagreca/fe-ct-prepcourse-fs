@@ -1,4 +1,5 @@
 function sort(sortBy, list) {
+   return list.sort((a, b) => b[sortBy] - a[sortBy]);
    // La función sort recibe dos parámetros:
    // sortBy: una letra (string).
    // list: un arreglo de objetos.
@@ -8,5 +9,4 @@ function sort(sortBy, list) {
    // retorna --> [{ a: 3, b: 2 }, { a: 2, b: 40 }, { a: 1, b: 3 }]
    // Tu código:
 }
-
 module.exports = sort;
